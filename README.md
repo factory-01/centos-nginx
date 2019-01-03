@@ -1,28 +1,23 @@
 # Информация
 
+[![Support](https://cdn-storage.github.io/images/badges/info.support.svg)](https://sysadmins.community/)
+[![Documentation](https://cdn-storage.github.io/images/badges/info.documentation.svg)](https://sysadmins.wiki/)
+[![Source](https://cdn-storage.github.io/images/badges/info.source.svg)](https://github.com/factory-01/centos-nginx)
+[![Changelog](https://cdn-storage.github.io/images/badges/info.changelog.svg)](CHANGELOG.md)
+[![Code of Conduct](https://cdn-storage.github.io/images/badges/coc.en.svg)](CODE_OF_CONDUCT.en.md)
+[![Code of Conduct](https://cdn-storage.github.io/images/badges/coc.ru.svg)](CODE_OF_CONDUCT.ru.md)
+[![Contributing](https://cdn-storage.github.io/images/badges/info.contributing.svg)](CONTRIBUTING.md)
+[![Authors](https://cdn-storage.github.io/images/badges/info.authors.svg)](AUTHORS)
+[![Issues](https://cdn-storage.github.io/images/badges/info.issues.svg)](https://github.com/factory-01/centos-nginx/issues)
+[![Repository](https://cdn-storage.github.io/images/badges/repository.rpm.svg)](https://copr.fedorainfracloud.org/coprs/metastore/centos-nginx/)
+[![License](https://cdn-storage.github.io/images/badges/license.gpl-3.0.svg)](LICENSE)
+[![Liberapay](https://cdn-storage.github.io/images/badges/donate.liberapay.svg)](https://liberapay.com/metadata/donate)
+[![Patreon](https://cdn-storage.github.io/images/badges/donate.patreon.svg)](https://patreon.com/metadata)
+[![By METADATA](https://cdn-storage.github.io/images/badges/by.metadata.svg)](https://metadata.foundation/)
+
 SPEC-файл для создания RPM-пакета **nginx**.
 
 ## Установка
 
-1. Подключить [репозиторий](https://copr.fedorainfracloud.org/coprs/metastore/centos-nginx/repo/epel-7/metastore-centos-nginx-epel-7.repo) **METASTORE**.
-2. Установить пакет: `yum install nginx`.
-
-## Авторы
-
-- [Kitsune Solar](https://kitsune.solar/) - мейнтейнер.
-
-## Ссылки
-
-- [Поддержка](https://sysadmins.community/)
-- [Документация](https://sysadmins.wiki/)
-- [Исходный код](https://github.com/factory-02/fedora-brotli)
-- [Журнал изменений](CHANGELOG.md)
-- [Кодекс поведения (EN)](CODE_OF_CONDUCT.en.md)
-- [Кодекс поведения (RU)](CODE_OF_CONDUCT.ru.md)
-- [Правила участия в разработке](CONTRIBUTING.md)
-- [Сообщить о проблеме](https://github.com/factory-02/fedora-brotli/issues)
-
-## Платформа
-
-- [METADATA / FOUNDATION](https://metadata.foundation/) - поддержка и разработка открытых проектов.
-- [METASTORE](https://metastore.pro/) - хранилище открытых проектов [**METADATA**](https://metadata.foundation/).
+1. Подключить репозиторий **METASTORE**: `dnf copr enable metastore/centos-nginx`.
+2. Установить пакет: `dnf install nginx`.
